@@ -1,0 +1,38 @@
+
+#section_tarjetas{
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  gap: 5px; /*la separacion entre los hijos*/
+}
+
+.tarjeta_usuario{
+  min-width: 100px;
+  border: 1px solid #05f;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+/* .tarjeta_usuario{
+  display: flex;
+  flex-direction: column;
+
+  min-width: 200px;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0; /* Borde sutil en lugar de negro fuerte 
+  border-radius: 16px;       /* Bordes redondeados modernos 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: system-ui;
+} */
+
+
+/* 
+.tarjeta_usuario:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 3px 5px #77f;
+  cursor: pointer;
+}
+

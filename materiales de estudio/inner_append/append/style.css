@@ -1,0 +1,30 @@
+
+#section_tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 5px;
+}
+
+
+
+.tarjeta_usuario{
+  
+  min-width: 200px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #eef; /* Borde sutil en lugar de negro fuerte */
+  border-radius: 15px;   
+  box-shadow: 0 4px 3px #aaa; /* Sombra suave gris*/
+  transition: transform , box-shadow ; /*estas propiedades se afectaran en el hover*/
+  transition-duration: 200ms; /*duracion de la animacion*/
+  font-family: system-ui;
+}
+
+
+
+.tarjeta_usuario:hover { /*se activa al pasar el cursor por arriba*/
+  transform: translateY(-5px); /*se eleva para arriba 5px*/
+  box-shadow: 0 3px 5px #77f; /*cambia la sombra*/
+  cursor: pointer; /*cambia el tipo cursor*/
+}
